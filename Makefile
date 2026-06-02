@@ -3,7 +3,9 @@ VERSION ?= $(shell date +%Y%m%d%H%M%S)
 PORT ?= 4000
 CONTAINER ?= lingocafe-assets
 
-.PHONY: build run run-detached stop logs shell publish
+.PHONY: boot build run run-detached stop logs shell publish
+
+boot: run
 
 build:
 	docker buildx build --load -t $(IMAGE):latest .
