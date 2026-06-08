@@ -5,6 +5,9 @@ VERSION ?= $(shell date +%Y%m%d%H%M%S)
 VERSION := $(VERSION)
 PORT ?= 4000
 CONTAINER ?= lingocafe-assets
+SRC_DIR ?= $(CURDIR)/src
+HTML_ROOT ?= /usr/share/nginx/html
+NGINX_DEV_CONF ?= $(CURDIR)/nginx.dev.conf
 UNIVERSAL_PLATFORMS ?= linux/amd64,linux/arm64
 CAPROVER ?= npx --yes caprover
 CAPROVER_URL := $(subst ",,$(CAPROVER_URL))
@@ -25,11 +28,17 @@ build:
 	docker buildx build --load -t $(IMAGE):latest .
 
 run: build
-	docker run --rm --name $(CONTAINER) -p $(PORT):80 $(IMAGE):latest
+	docker run --rm --name $(CONTAINER) -p $(PORT):80 \
+		-v "$(SRC_DIR):$(HTML_ROOT):ro" \
+		-v "$(NGINX_DEV_CONF):/etc/nginx/nginx.conf:ro" \
+		$(IMAGE):latest
 
 run-detached: build
-	docker run -d --rm --name $(CONTAINER) -p $(PORT):80 $(IMAGE):latest
-	@echo "Serving assets at http://localhost:$(PORT)"
+	docker run -d --rm --name $(CONTAINER) -p $(PORT):80 \
+		-v "$(SRC_DIR):$(HTML_ROOT):ro" \
+		-v "$(NGINX_DEV_CONF):/etc/nginx/nginx.conf:ro" \
+		$(IMAGE):latest
+	@echo "Serving live assets at http://localhost:$(PORT)"
 
 stop:
 	-docker stop $(CONTAINER)
