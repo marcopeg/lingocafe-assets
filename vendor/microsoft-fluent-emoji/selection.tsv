@@ -1,0 +1,20 @@
+# role_id	upstream asset path
+role-appointment-coordinator	Woman health worker/Medium-Light/Color/woman_health_worker_color_medium-light.svg
+role-community-organizer	Person raising hand/Medium-Dark/Color/person_raising_hand_color_medium-dark.svg
+role-education-contact	Teacher/Medium/Color/teacher_color_medium.svg
+role-everyday-contact	Person/Light/Color/person_color_light.svg
+role-family-care-professional	Woman health worker/Dark/Color/woman_health_worker_color_dark.svg
+role-gym-peer	Man lifting weights/Medium-Dark/Color/man_lifting_weights_color_medium-dark.svg
+role-gym-staff	Person lifting weights/Light/Color/person_lifting_weights_color_light.svg
+role-housing-representative	Construction worker/Medium/Color/construction_worker_color_medium.svg
+role-personal-service-professional	Artist/Medium-Light/Color/artist_color_medium-light.svg
+role-pharmacy-counter-staff	Scientist/Medium-Dark/Color/scientist_color_medium-dark.svg
+role-preschool-educator	Woman teacher/Medium/Color/woman_teacher_color_medium.svg
+role-primary-care-clinician	Man health worker/Light/Color/man_health_worker_color_light.svg
+role-recruitment-contact	Woman office worker/Dark/Color/woman_office_worker_color_dark.svg
+role-restaurant-server	Person tipping hand/Medium/Color/person_tipping_hand_color_medium.svg
+role-retail-assistant	Woman tipping hand/Medium-Light/Color/woman_tipping_hand_color_medium-light.svg
+role-service-desk-agent	Office worker/Medium-Dark/Color/office_worker_color_medium-dark.svg
+role-transport-worker	Man pilot/Medium/Color/man_pilot_color_medium.svg
+role-workplace-peer	Office worker/Light/Color/office_worker_color_light.svg
+role-workplace-supervisor	Man office worker/Dark/Color/man_office_worker_color_dark.svg
