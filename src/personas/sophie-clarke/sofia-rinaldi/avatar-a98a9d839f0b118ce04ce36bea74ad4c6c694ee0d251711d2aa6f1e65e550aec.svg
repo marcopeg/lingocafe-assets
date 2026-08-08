@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc" data-content-kind="persona" data-persona-id="sophie-clarke">
+  <title id="title">Sofia Rinaldi avatar</title>
+  <desc id="desc">A confident Italian woman with softly textured dark hair, round green glasses, and an ochre scarf.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F4DED2"/>
+      <stop offset="1" stop-color="#D99A79"/>
+    </linearGradient>
+    <linearGradient id="top" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#306B62"/>
+      <stop offset="1" stop-color="#214B47"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <circle cx="66" cy="92" r="120" fill="#FFFFFF" opacity=".18"/>
+  <circle cx="462" cy="416" r="154" fill="#8B472F" opacity=".11"/>
+  <path d="M51 512c15-96 77-157 159-174h92c82 17 144 78 159 174H51Z" fill="url(#top)"/>
+  <path d="M221 295h70v73c-9 15-21 23-35 23s-26-8-35-23v-73Z" fill="#C98B68"/>
+  <path d="M126 204c0-88 47-145 130-145s130 57 130 145v144c-28-11-49-33-59-64H185c-10 31-31 53-59 64V204Z" fill="#382D2B"/>
+  <ellipse cx="166" cy="224" rx="24" ry="36" fill="#C88966"/>
+  <ellipse cx="346" cy="224" rx="24" ry="36" fill="#C88966"/>
+  <path d="M256 89c-66 0-101 47-101 124 0 77 42 133 101 133s101-56 101-133c0-77-35-124-101-124Z" fill="#D69973"/>
+  <path d="M150 188c4-79 41-126 106-126 68 0 105 45 107 124-22-13-44-35-58-62-31 28-83 46-155 64Z" fill="#40312E"/>
+  <path d="M160 149c17-58 87-91 148-65-31 3-58 14-80 31-21 17-44 28-68 34Z" fill="#51403A"/>
+  <path d="M137 188c-8 25-8 52 1 80M375 188c8 25 8 52-1 80" fill="none" stroke="#382D2B" stroke-width="12" stroke-linecap="round"/>
+  <g fill="none" stroke="#285B4C" stroke-width="9">
+    <circle cx="211" cy="213" r="29"/>
+    <circle cx="301" cy="213" r="29"/>
+    <path d="M240 207h32M181 204l-20-8M331 204l20-8"/>
+  </g>
+  <ellipse cx="211" cy="213" rx="6" ry="8" fill="#382C29"/>
+  <ellipse cx="301" cy="213" rx="6" ry="8" fill="#382C29"/>
+  <path d="M253 216c-3 21-3 36 7 42" fill="none" stroke="#AA6B50" stroke-width="6" stroke-linecap="round"/>
+  <path d="M221 283c22 14 48 14 70 0" fill="none" stroke="#91434F" stroke-width="7" stroke-linecap="round"/>
+  <path d="M161 392c27-24 59-37 95-37s68 13 95 37l-28 120H189l-28-120Z" fill="#D69228"/>
+  <path d="M202 360c15 23 33 34 54 34s39-11 54-34" fill="none" stroke="#F0B64A" stroke-width="18" stroke-linecap="round"/>
+  <path d="M130 512c6-62 25-107 58-135M382 512c-6-62-25-107-58-135" fill="none" stroke="#1B4441" stroke-width="15" opacity=".55"/>
+</svg>

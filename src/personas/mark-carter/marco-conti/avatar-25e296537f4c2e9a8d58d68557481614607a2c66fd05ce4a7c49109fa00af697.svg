@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc" data-content-kind="persona" data-persona-id="mark-carter">
+  <title id="title">Marco Conti avatar</title>
+  <desc id="desc">A friendly middle-aged Italian man with short dark hair, rectangular glasses, and a teal overshirt.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E8F3DD"/>
+      <stop offset="1" stop-color="#A7D6B4"/>
+    </linearGradient>
+    <linearGradient id="shirt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#178B82"/>
+      <stop offset="1" stop-color="#0B5E5A"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <circle cx="64" cy="112" r="126" fill="#FFFFFF" opacity=".20"/>
+  <circle cx="464" cy="402" r="154" fill="#377C5D" opacity=".12"/>
+  <path d="M55 512c12-99 68-157 146-174h110c80 18 136 75 146 174H55Z" fill="url(#shirt)"/>
+  <path d="M178 348c18 32 44 49 78 49s60-17 78-49l-39-20h-78l-39 20Z" fill="#F8EFE2"/>
+  <path d="M223 294h66v72c-10 16-22 24-33 24s-23-8-33-24v-72Z" fill="#C98D67"/>
+  <ellipse cx="169" cy="221" rx="24" ry="35" fill="#C98D67"/>
+  <ellipse cx="343" cy="221" rx="24" ry="35" fill="#C98D67"/>
+  <path d="M256 82c-66 0-101 48-101 126 0 75 42 133 101 133s101-58 101-133c0-78-35-126-101-126Z" fill="#D89B73"/>
+  <path d="M157 190c-7-56 15-113 84-124 43-7 84 7 104 37 11 17 15 36 12 57-22-27-48-40-80-43-42-4-81 11-120 40v33Z" fill="#332B28"/>
+  <path d="M172 130c10-26 29-45 56-56 30-12 62-9 88 3-17 2-34 8-49 17-34 20-60 31-95 36Z" fill="#463733"/>
+  <path d="M176 175c12-22 25-35 42-43M336 175c-12-22-25-35-42-43" fill="none" stroke="#332B28" stroke-width="9" stroke-linecap="round"/>
+  <g fill="none" stroke="#2B4544" stroke-width="9">
+    <rect x="179" y="190" width="63" height="46" rx="15"/>
+    <rect x="270" y="190" width="63" height="46" rx="15"/>
+    <path d="M242 207h28M178 204l-19-7M334 204l19-7"/>
+  </g>
+  <ellipse cx="213" cy="212" rx="6" ry="8" fill="#392D29"/>
+  <ellipse cx="299" cy="212" rx="6" ry="8" fill="#392D29"/>
+  <path d="M252 214c-4 22-4 38 7 43" fill="none" stroke="#AA704F" stroke-width="6" stroke-linecap="round"/>
+  <path d="M220 281c22 16 50 16 72 0" fill="none" stroke="#814343" stroke-width="7" stroke-linecap="round"/>
+  <path d="M202 305c17 17 35 25 54 25s37-8 54-25" fill="none" stroke="#B77D5E" stroke-width="4" opacity=".55"/>
+  <path d="M111 512c8-72 40-122 91-149l54 45 54-45c52 27 84 77 91 149" fill="none" stroke="#095552" stroke-width="14" opacity=".55"/>
+</svg>

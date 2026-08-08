@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc" data-content-kind="persona" data-persona-id="mark-carter">
+  <title id="title">Mark Carter avatar</title>
+  <desc id="desc">A friendly middle-aged man with short brown hair, rectangular glasses, and a teal overshirt.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#DDF4F0"/>
+      <stop offset="1" stop-color="#93D3CA"/>
+    </linearGradient>
+    <linearGradient id="shirt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#168A83"/>
+      <stop offset="1" stop-color="#0D625F"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <circle cx="74" cy="94" r="112" fill="#FFFFFF" opacity=".22"/>
+  <circle cx="458" cy="402" r="148" fill="#0B716C" opacity=".10"/>
+  <path d="M55 512c12-99 68-157 146-174h110c80 18 136 75 146 174H55Z" fill="url(#shirt)"/>
+  <path d="M178 348c18 32 44 49 78 49s60-17 78-49l-39-20h-78l-39 20Z" fill="#F6F1E8"/>
+  <path d="M223 294h66v72c-10 16-22 24-33 24s-23-8-33-24v-72Z" fill="#D9A27D"/>
+  <ellipse cx="169" cy="221" rx="24" ry="35" fill="#D9A27D"/>
+  <ellipse cx="343" cy="221" rx="24" ry="35" fill="#D9A27D"/>
+  <path d="M256 82c-66 0-101 48-101 126 0 75 42 133 101 133s101-58 101-133c0-78-35-126-101-126Z" fill="#E4B18C"/>
+  <path d="M158 190c-5-60 20-119 96-124 60-4 98 27 103 91-20-22-47-35-82-38-41-4-77 11-117 38v33Z" fill="#49382F"/>
+  <path d="M179 126c20-39 60-60 107-54 22 3 41 12 56 27-43-15-87-7-121 12-15 8-28 13-42 15Z" fill="#5B463A"/>
+  <path d="M178 190c5-19 16-32 31-42M334 190c-5-19-16-32-31-42" fill="none" stroke="#49382F" stroke-width="8" stroke-linecap="round"/>
+  <g fill="none" stroke="#30474A" stroke-width="9">
+    <rect x="179" y="190" width="63" height="46" rx="15"/>
+    <rect x="270" y="190" width="63" height="46" rx="15"/>
+    <path d="M242 207h28M178 204l-19-7M334 204l19-7"/>
+  </g>
+  <ellipse cx="213" cy="212" rx="6" ry="8" fill="#44362F"/>
+  <ellipse cx="299" cy="212" rx="6" ry="8" fill="#44362F"/>
+  <path d="M252 214c-4 22-4 38 7 43" fill="none" stroke="#B97D61" stroke-width="6" stroke-linecap="round"/>
+  <path d="M220 281c22 16 50 16 72 0" fill="none" stroke="#8B4D4D" stroke-width="7" stroke-linecap="round"/>
+  <path d="M202 305c17 17 35 25 54 25s37-8 54-25" fill="none" stroke="#C68E70" stroke-width="4" opacity=".55"/>
+  <path d="M111 512c8-72 40-122 91-149l54 45 54-45c52 27 84 77 91 149" fill="none" stroke="#0A5C59" stroke-width="14" opacity=".55"/>
+</svg>
