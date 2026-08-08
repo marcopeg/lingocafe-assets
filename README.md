@@ -26,6 +26,17 @@ are served as:
 /dracula/reader.avif
 ```
 
+Persona avatars are published under immutable, content-addressed paths:
+
+```text
+src/personas/<persona-id>/<presentation-id>/avatar-<sha256>.svg
+```
+
+The filename hash must match the complete SVG bytes. Applications store the
+relative path and prefix it with the configured assets origin, so the same
+database content works with local Nginx, the current production host, or a
+future CDN.
+
 ## Image Negotiation
 
 Extensionless image URLs negotiate by browser `Accept` header:
@@ -74,6 +85,15 @@ By default the server is available at:
 
 ```text
 http://localhost:4000
+```
+
+The current persona review URLs are:
+
+```text
+http://localhost:4000/personas/mark-carter/mark-carter/avatar-3e58deedc8bf9998baaf3ee8a87f8ba34de45f7eb20182ef01b04d0e544ba48a.svg
+http://localhost:4000/personas/mark-carter/marco-conti/avatar-25e296537f4c2e9a8d58d68557481614607a2c66fd05ce4a7c49109fa00af697.svg
+http://localhost:4000/personas/sophie-clarke/sophie-clarke/avatar-bfaec2baedb0f65515dc28fa6eb55e096216943a9889fe0b0bd74b8397971958.svg
+http://localhost:4000/personas/sophie-clarke/sofia-rinaldi/avatar-a98a9d839f0b118ce04ce36bea74ad4c6c694ee0d251711d2aa6f1e65e550aec.svg
 ```
 
 Override the port if needed:
