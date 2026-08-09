@@ -53,3 +53,17 @@ make deploy.github VERSION=20260809153045
 
 The workflow publishes `marcopeg/lingocafe-assets:<timestamp>` and updates
 `marcopeg/lingocafe-assets:latest`, then deploys the immutable timestamp tag.
+After pushing the tag, `make deploy.github` waits 30 seconds and then polls
+`https://assets.lingocafe.app/deployment-<timestamp>.txt` every 10 seconds for
+up to five minutes. The local command succeeds only when the endpoint returns
+HTTP 200 with the exact timestamp in its response body.
+
+An external deployment skill or automation that performs its own rollout
+verification can skip the local polling:
+
+```sh
+make deploy.github SKIP_DEPLOYMENT_VERIFY=1
+```
+
+The caller is responsible for verifying the public deployment whenever this
+flag is enabled.

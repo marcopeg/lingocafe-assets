@@ -111,3 +111,25 @@ make publish
 ```
 
 The image is tagged as both `latest` and a timestamp version.
+
+## Deployment
+
+Build and push the multi-architecture image locally, deploy its immutable
+timestamp tag to CapRover, and verify the public deployment marker:
+
+```sh
+make deploy.mac
+```
+
+`make deploy` is an alias for the same verified local flow. Neither command
+creates a Git tag. To build and deploy through GitHub Actions instead, run:
+
+```sh
+make deploy.github
+```
+
+Both flows wait 30 seconds after starting the deployment, then poll
+`https://assets.lingocafe.app/deployment-<timestamp>.txt` every 10 seconds for
+up to five minutes. They succeed only when the endpoint returns HTTP 200 with
+the exact timestamp. Automation that performs its own rollout verification can
+set `SKIP_DEPLOYMENT_VERIFY=1`.
