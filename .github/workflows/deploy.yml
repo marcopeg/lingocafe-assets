@@ -3,7 +3,7 @@ name: Deploy assets
 on:
   push:
     tags:
-      - '20????????????'
+      - '20*'
 
 permissions:
   contents: write
@@ -20,6 +20,13 @@ jobs:
     name: Build, publish, and deploy ${{ github.ref_name }}
     runs-on: ubuntu-24.04
     steps:
+      - name: Validate deployment tag
+        run: |
+          if ! printf '%s' "${GITHUB_REF_NAME}" | grep -Eq '^20[0-9]{12}$'; then
+            echo "Deployment tags must use YYYYMMDDHHMMSS format, got: ${GITHUB_REF_NAME}"
+            exit 1
+          fi
+
       - name: Check out the deployment tag
         uses: actions/checkout@v4
 
