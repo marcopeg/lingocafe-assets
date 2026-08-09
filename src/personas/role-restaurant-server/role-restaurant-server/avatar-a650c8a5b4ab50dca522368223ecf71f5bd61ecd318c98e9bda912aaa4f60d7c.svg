@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc" data-content-kind="persona" data-persona-id="role-restaurant-server" data-persona-type="role">
+  <title id="title">Restaurant server avatar</title>
+  <desc id="desc">A friendly role avatar for restaurant server, with a clear tray cue.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F3D9CF"/><stop offset="1" stop-color="#A84E35" stop-opacity=".55"/></linearGradient></defs>
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <circle cx="70" cy="80" r="118" fill="#fff" opacity=".18"/><circle cx="458" cy="434" r="142" fill="#A84E35" opacity=".12"/>
+  <path d="M52 512c13-100 78-158 167-175h64c88 17 152 75 165 175z" fill="#A84E35"/>
+  <path d="M220 291h62v73c-8 16-19 23-31 23s-23-7-31-23z" fill="#7A4A32"/>
+  <ellipse cx="160" cy="220" rx="22" ry="34" fill="#7A4A32"/><ellipse cx="342" cy="220" rx="22" ry="34" fill="#7A4A32"/>
+  <path d="M251 83c-63 0-96 47-96 124 0 75 39 130 96 130s96-55 96-130c0-77-33-124-96-124z" fill="#7A4A32"/>
+  <path d="M156 183c10-72 47-111 100-111 56 0 91 35 95 103-44-12-78-35-101-62-25 31-56 54-99 70z" fill="#2C201C"/>
+  <ellipse cx="209" cy="216" rx="6" ry="8" fill="#342923"/><ellipse cx="293" cy="216" rx="6" ry="8" fill="#342923"/>
+  <path d="M249 218c-4 20-3 34 7 40" fill="none" stroke="#8F604C" stroke-width="6" stroke-linecap="round"/>
+  <path d="M217 280c21 14 47 14 68 0" fill="none" stroke="#814B50" stroke-width="7" stroke-linecap="round"/>
+  <g fill="none" stroke="#fff" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"><path d="M302 408h154M322 393c9-42 30-63 57-63s49 21 57 63"/><circle cx="379" cy="325" r="8"/></g>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc" data-content-kind="persona" data-persona-id="role-family-care-professional" data-persona-type="role">
+  <title id="title">Family-care professional avatar</title>
+  <desc id="desc">A friendly role avatar for family-care professional, with a clear care cue.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F5DDE1"/><stop offset="1" stop-color="#B95867" stop-opacity=".55"/></linearGradient></defs>
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <circle cx="70" cy="80" r="118" fill="#fff" opacity=".18"/><circle cx="458" cy="434" r="142" fill="#B95867" opacity=".12"/>
+  <path d="M52 512c13-100 78-158 167-175h64c88 17 152 75 165 175z" fill="#B95867"/>
+  <path d="M210 291h62v73c-8 16-19 23-31 23s-23-7-31-23z" fill="#D19B74"/>
+  <ellipse cx="150" cy="220" rx="22" ry="34" fill="#D19B74"/><ellipse cx="332" cy="220" rx="22" ry="34" fill="#D19B74"/>
+  <path d="M241 83c-63 0-96 47-96 124 0 75 39 130 96 130s96-55 96-130c0-77-33-124-96-124z" fill="#D19B74"/>
+  <path d="M145 199c-2-88 39-139 99-139 69 0 105 51 96 139-18-44-50-68-96-68-45 0-77 23-99 68z" fill="#5B3B32"/>
+  <ellipse cx="199" cy="216" rx="6" ry="8" fill="#342923"/><ellipse cx="283" cy="216" rx="6" ry="8" fill="#342923"/>
+  <path d="M239 218c-4 20-3 34 7 40" fill="none" stroke="#8F604C" stroke-width="6" stroke-linecap="round"/>
+  <path d="M207 280c21 14 47 14 68 0" fill="none" stroke="#814B50" stroke-width="7" stroke-linecap="round"/>
+  <g fill="none" stroke="#fff" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"><rect x="318" y="332" width="128" height="106" rx="15"/><circle cx="363" cy="382" r="20"/><circle cx="401" cy="382" r="20"/><path d="M383 402v24"/></g>
+</svg>

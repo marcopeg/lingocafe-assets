@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc" data-content-kind="persona" data-persona-id="role-pharmacy-counter-staff" data-persona-type="role">
+  <title id="title">Pharmacy counter staff avatar</title>
+  <desc id="desc">A friendly role avatar for pharmacy counter staff, with a clear magnifier cue.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#E8DDF3"/><stop offset="1" stop-color="#7650A3" stop-opacity=".55"/></linearGradient></defs>
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <circle cx="70" cy="80" r="118" fill="#fff" opacity=".18"/><circle cx="458" cy="434" r="142" fill="#7650A3" opacity=".12"/>
+  <path d="M52 512c13-100 78-158 167-175h64c88 17 152 75 165 175z" fill="#7650A3"/>
+  <path d="M215 291h62v73c-8 16-19 23-31 23s-23-7-31-23z" fill="#B87555"/>
+  <ellipse cx="155" cy="220" rx="22" ry="34" fill="#B87555"/><ellipse cx="337" cy="220" rx="22" ry="34" fill="#B87555"/>
+  <path d="M246 83c-63 0-96 47-96 124 0 75 39 130 96 130s96-55 96-130c0-77-33-124-96-124z" fill="#B87555"/>
+  <path d="M151 183c10-72 47-111 100-111 56 0 91 35 95 103-44-12-78-35-101-62-25 31-56 54-99 70z" fill="#34241F"/>
+  <ellipse cx="204" cy="216" rx="6" ry="8" fill="#342923"/><ellipse cx="288" cy="216" rx="6" ry="8" fill="#342923"/>
+  <path d="M244 218c-4 20-3 34 7 40" fill="none" stroke="#8F604C" stroke-width="6" stroke-linecap="round"/>
+  <path d="M212 280c21 14 47 14 68 0" fill="none" stroke="#814B50" stroke-width="7" stroke-linecap="round"/>
+  <g fill="none" stroke="#fff" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"><rect x="306" y="334" width="91" height="110" rx="12"/><path d="M325 365h53M325 389h42"/><circle cx="414" cy="400" r="31"/><path d="M436 422l30 30"/></g>
+</svg>

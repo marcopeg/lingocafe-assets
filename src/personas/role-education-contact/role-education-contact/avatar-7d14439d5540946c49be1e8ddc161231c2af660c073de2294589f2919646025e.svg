@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc" data-content-kind="persona" data-persona-id="role-education-contact" data-persona-type="role">
+  <title id="title">Education contact avatar</title>
+  <desc id="desc">A friendly role avatar for education contact, with a clear book cue.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#E3DFF3"/><stop offset="1" stop-color="#5B4A9A" stop-opacity=".55"/></linearGradient></defs>
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <circle cx="70" cy="80" r="118" fill="#fff" opacity=".18"/><circle cx="458" cy="434" r="142" fill="#5B4A9A" opacity=".12"/>
+  <path d="M52 512c13-100 78-158 167-175h64c88 17 152 75 165 175z" fill="#5B4A9A"/>
+  <path d="M220 291h62v73c-8 16-19 23-31 23s-23-7-31-23z" fill="#E0AA82"/>
+  <ellipse cx="160" cy="220" rx="22" ry="34" fill="#E0AA82"/><ellipse cx="342" cy="220" rx="22" ry="34" fill="#E0AA82"/>
+  <path d="M251 83c-63 0-96 47-96 124 0 75 39 130 96 130s96-55 96-130c0-77-33-124-96-124z" fill="#E0AA82"/>
+  <path d="M155 199c-2-88 39-139 99-139 69 0 105 51 96 139-18-44-50-68-96-68-45 0-77 23-99 68z" fill="#574139"/>
+  <ellipse cx="209" cy="216" rx="6" ry="8" fill="#342923"/><ellipse cx="293" cy="216" rx="6" ry="8" fill="#342923"/>
+  <path d="M249 218c-4 20-3 34 7 40" fill="none" stroke="#8F604C" stroke-width="6" stroke-linecap="round"/>
+  <path d="M217 280c21 14 47 14 68 0" fill="none" stroke="#814B50" stroke-width="7" stroke-linecap="round"/>
+  <g fill="none" stroke="#fff" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"><path d="M310 338c30-15 60-10 78 4v96c-18-14-48-19-78-4zM388 342c18-14 48-19 78-4v96c-30-15-60-10-78 4z"/><path d="M388 342v96"/></g>
+</svg>

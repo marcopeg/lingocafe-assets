@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc" data-content-kind="persona" data-persona-id="role-recruitment-contact" data-persona-type="role">
+  <title id="title">Recruitment contact avatar</title>
+  <desc id="desc">A friendly role avatar for recruitment contact, with a clear profiles cue.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#DCE7EF"/><stop offset="1" stop-color="#49657E" stop-opacity=".55"/></linearGradient></defs>
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <circle cx="70" cy="80" r="118" fill="#fff" opacity=".18"/><circle cx="458" cy="434" r="142" fill="#49657E" opacity=".12"/>
+  <path d="M52 512c13-100 78-158 167-175h64c88 17 152 75 165 175z" fill="#49657E"/>
+  <path d="M215 291h62v73c-8 16-19 23-31 23s-23-7-31-23z" fill="#C88764"/>
+  <ellipse cx="155" cy="220" rx="22" ry="34" fill="#C88764"/><ellipse cx="337" cy="220" rx="22" ry="34" fill="#C88764"/>
+  <path d="M246 83c-63 0-96 47-96 124 0 75 39 130 96 130s96-55 96-130c0-77-33-124-96-124z" fill="#C88764"/>
+  <path d="M150 199c-2-88 39-139 99-139 69 0 105 51 96 139-18-44-50-68-96-68-45 0-77 23-99 68z" fill="#35251F"/>
+  <ellipse cx="204" cy="216" rx="6" ry="8" fill="#342923"/><ellipse cx="288" cy="216" rx="6" ry="8" fill="#342923"/>
+  <path d="M244 218c-4 20-3 34 7 40" fill="none" stroke="#8F604C" stroke-width="6" stroke-linecap="round"/>
+  <path d="M212 280c21 14 47 14 68 0" fill="none" stroke="#814B50" stroke-width="7" stroke-linecap="round"/>
+  <g fill="none" stroke="#fff" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"><rect x="296" y="340" width="90" height="104" rx="13"/><rect x="368" y="322" width="90" height="104" rx="13"/><circle cx="413" cy="355" r="14"/><path d="M389 394c8-19 40-19 48 0"/></g>
+</svg>

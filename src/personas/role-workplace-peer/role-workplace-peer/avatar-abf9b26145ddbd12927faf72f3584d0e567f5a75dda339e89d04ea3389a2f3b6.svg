@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc" data-content-kind="persona" data-persona-id="role-workplace-peer" data-persona-type="role">
+  <title id="title">Workplace peer avatar</title>
+  <desc id="desc">A friendly role avatar for workplace peer, with a clear mug cue.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#DEE7EB"/><stop offset="1" stop-color="#536879" stop-opacity=".55"/></linearGradient></defs>
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <circle cx="70" cy="80" r="118" fill="#fff" opacity=".18"/><circle cx="458" cy="434" r="142" fill="#536879" opacity=".12"/>
+  <path d="M52 512c13-100 78-158 167-175h64c88 17 152 75 165 175z" fill="#536879"/>
+  <path d="M220 291h62v73c-8 16-19 23-31 23s-23-7-31-23z" fill="#D7A47D"/>
+  <ellipse cx="160" cy="220" rx="22" ry="34" fill="#D7A47D"/><ellipse cx="342" cy="220" rx="22" ry="34" fill="#D7A47D"/>
+  <path d="M251 83c-63 0-96 47-96 124 0 75 39 130 96 130s96-55 96-130c0-77-33-124-96-124z" fill="#D7A47D"/>
+  <path d="M160 178c13-68 47-104 96-104 56 0 91 38 94 109-32-28-61-43-91-45-36-2-68 11-99 40z" fill="#4A342C"/>
+  <ellipse cx="209" cy="216" rx="6" ry="8" fill="#342923"/><ellipse cx="293" cy="216" rx="6" ry="8" fill="#342923"/>
+  <path d="M249 218c-4 20-3 34 7 40" fill="none" stroke="#8F604C" stroke-width="6" stroke-linecap="round"/>
+  <path d="M217 280c21 14 47 14 68 0" fill="none" stroke="#814B50" stroke-width="7" stroke-linecap="round"/>
+  <g fill="none" stroke="#fff" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"><path d="M320 354h93v82h-93zM413 370h18c27 0 27 45 0 45h-18"/><path d="M335 334c0-18 18-18 18-36M373 334c0-18 18-18 18-36"/></g>
+</svg>

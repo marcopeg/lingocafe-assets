@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc" data-content-kind="persona" data-persona-id="role-primary-care-clinician" data-persona-type="role">
+  <title id="title">Primary-care clinician avatar</title>
+  <desc id="desc">A friendly role avatar for primary-care clinician, with a clear stethoscope cue.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#D7EEEB"/><stop offset="1" stop-color="#257A78" stop-opacity=".55"/></linearGradient></defs>
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <circle cx="70" cy="80" r="118" fill="#fff" opacity=".18"/><circle cx="458" cy="434" r="142" fill="#257A78" opacity=".12"/>
+  <path d="M52 512c13-100 78-158 167-175h64c88 17 152 75 165 175z" fill="#257A78"/>
+  <path d="M220 291h62v73c-8 16-19 23-31 23s-23-7-31-23z" fill="#6F4937"/>
+  <ellipse cx="160" cy="220" rx="22" ry="34" fill="#6F4937"/><ellipse cx="342" cy="220" rx="22" ry="34" fill="#6F4937"/>
+  <path d="M251 83c-63 0-96 47-96 124 0 75 39 130 96 130s96-55 96-130c0-77-33-124-96-124z" fill="#6F4937"/>
+  <path d="M160 188c2-79 36-122 94-122 68 0 101 47 96 126-25-25-52-37-84-37-43 0-76 14-106 33z" fill="#30221F"/>
+  <ellipse cx="209" cy="216" rx="6" ry="8" fill="#342923"/><ellipse cx="293" cy="216" rx="6" ry="8" fill="#342923"/>
+  <path d="M249 218c-4 20-3 34 7 40" fill="none" stroke="#8F604C" stroke-width="6" stroke-linecap="round"/>
+  <path d="M217 280c21 14 47 14 68 0" fill="none" stroke="#814B50" stroke-width="7" stroke-linecap="round"/>
+  <g fill="none" stroke="#fff" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"><path d="M320 330v56c0 42 65 42 65 0v-18M350 330v56"/><circle cx="415" cy="368" r="25"/><path d="M415 393v43"/></g>
+</svg>
