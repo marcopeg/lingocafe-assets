@@ -1,0 +1,65 @@
+name: Deploy assets
+
+on:
+  push:
+    tags:
+      - '20????????????'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: deploy-${{ github.ref_name }}
+  cancel-in-progress: false
+
+env:
+  IMAGE: marcopeg/lingocafe-assets
+
+jobs:
+  build-and-deploy:
+    name: Build, publish, and deploy ${{ github.ref_name }}
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Check out the deployment tag
+        uses: actions/checkout@v4
+
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@v3
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Log in to Docker Hub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+      - name: Build and publish multi-architecture image
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          platforms: linux/amd64,linux/arm64
+          push: true
+          tags: |
+            ${{ env.IMAGE }}:${{ github.ref_name }}
+            ${{ env.IMAGE }}:latest
+
+      - name: Deploy the immutable image with CapRover
+        env:
+          CAPROVER_URL: ${{ secrets.CAPROVER_URL }}
+          CAPROVER_APP: ${{ secrets.CAPROVER_APP }}
+          CAPROVER_APP_TOKEN: ${{ secrets.CAPROVER_APP_TOKEN }}
+          CAPROVER_IMAGE: ${{ env.IMAGE }}:${{ github.ref_name }}
+        run: |
+          npx --yes caprover deploy \
+            --caproverUrl "$CAPROVER_URL" \
+            --caproverApp "$CAPROVER_APP" \
+            --imageName "$CAPROVER_IMAGE" \
+            --appToken "$CAPROVER_APP_TOKEN"
+
+      - name: Create GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VERSION: ${{ github.ref_name }}
+        run: gh release create "$VERSION" --title "Assets $VERSION" --generate-notes

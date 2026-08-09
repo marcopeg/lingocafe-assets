@@ -16,11 +16,12 @@ CAPROVER_APP := $(subst ",,$(CAPROVER_APP))
 CAPROVER_APP_TOKEN := $(subst ",,$(CAPROVER_APP_TOKEN))
 CAPROVER_IMAGE ?= $(IMAGE):$(VERSION)
 CAPROVER_IMAGE := $(subst ",,$(CAPROVER_IMAGE))
+GITHUB_REPO ?= marcopeg/lingocafe-assets
 
 export CAPROVER_URL
 export CAPROVER_APP_TOKEN
 
-.PHONY: boot build run run-detached stop logs shell publish publish.nocache deploy.caprover deploy.nocache deploy
+.PHONY: boot build run run-detached stop logs shell publish publish.nocache deploy.caprover deploy.nocache deploy deploy.github
 
 boot: run
 
@@ -87,3 +88,20 @@ deploy.caprover:
 
 deploy.nocache: publish.nocache deploy.caprover
 deploy: publish deploy.caprover
+
+###
+### Deploy through GitHub Actions
+###
+deploy.github:
+	@tag="$(VERSION)"; \
+	if ! printf '%s' "$$tag" | grep -Eq '^20[0-9]{12}$$'; then \
+		echo "VERSION must be a timestamp in YYYYMMDDHHMMSS format (got: $$tag)"; \
+		exit 1; \
+	fi; \
+	if git rev-parse -q --verify "refs/tags/$$tag" >/dev/null; then \
+		echo "Tag $$tag already exists; choose a new VERSION"; \
+		exit 1; \
+	fi; \
+	git tag -a "$$tag" -m "Deploy $$tag"; \
+	git push origin "$$tag"; \
+	echo "Deployment started: https://github.com/$(GITHUB_REPO)/actions"
